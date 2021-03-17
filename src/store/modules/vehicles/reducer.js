@@ -1,7 +1,15 @@
+import { GETVEHICLE } from './actionType'
 
+const versionReducer = (state =[], action) =>{
+  switch (action.type) {
+    case GETVEHICLE:
+      
+      return state = [...state, ...action.vehicles];
 
-const versionReducer = (state ='', action) =>{
-  return ''
+  
+    default:
+      return state;
+  }
 }
 
 export default versionReducer

@@ -1,0 +1,1 @@
+export const GETMODEL = 'GET/@model'

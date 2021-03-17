@@ -1,4 +1,6 @@
+import CarFilter from "./components/CarFilter";
 import HeaderBar from "./components/HeaderBar";
+import ResultArea from "./components/ResultArea";
 import GlobalStyle from "./style/GlobalStyle";
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
     <>
       <GlobalStyle/>
       <HeaderBar/>
+      <CarFilter/>
+      <ResultArea/>
     </>
   );
 }

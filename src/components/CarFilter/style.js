@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
-export const HeaderContainer = styled.header`
+export const FilerContainer = styled.div`
   width: 100vw;
   max-width: 100%;
-  height: 3rem;
 
+
+  
 `
